@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AntipartyRR Bot Commands</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <div class="container">
+        <header>
+            <h1>AntipartyRR Commands</h1>
+            <div class="search">
+                <input type="text" id="search" placeholder="Search commands...">
+            </div>
+        </header>
+        
+        <div class="commands-grid" id="commands">
+            <!-- Commands will be inserted here -->
+        </div>
+    </div>
+
+    <!-- Preview Popup -->
+    <div class="preview-popup" id="previewPopup">
+        <button class="close-preview">&times;</button>
+        <div class="preview-container">
+            <h2 id="previewTitle">Command Preview</h2>
+            <div class="chat-simulation" id="chatSimulation">
+                <!-- Chat messages will be inserted here -->
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
